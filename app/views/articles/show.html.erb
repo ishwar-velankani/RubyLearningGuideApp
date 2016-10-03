@@ -8,6 +8,10 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @article.image.thumb.url %>
+</p>
 
 <h2>Comments</h2>
 <%= render @article.comments %>
