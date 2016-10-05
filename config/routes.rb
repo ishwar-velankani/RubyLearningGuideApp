@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'regular_exp/regular'
+
+  get 'regular_exp/index'
+
   root 'welcome#index'
   resources :articles do
     resources :comments
