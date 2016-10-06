@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :students
   get 'regular_exp/regular'
 
   get 'regular_exp/index'
