@@ -40,3 +40,16 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+
+deleted:    config/.database.yml.swp
+    deleted:    config/database.yml~
+    deleted:    log/development.log
+    deleted: public/system/students/avatars/000/000/003/medium/images_(1).jpg
+    deleted: public/system/students/avatars/000/000/003/original/images_(1).jpg
+    deleted: public/system/students/avatars/000/000/003/thumb/images_(1).jpg
+    deleted: public/uploads/article/image/2/cats-that-stay-small1.lg.jpg
+    deleted: public/uploads/article/image/2/thumb_cats-that-stay-small1.lg.jpg
+    deleted:    public/uploads/article/image/3/images__1_.jpg
+    deleted:    public/uploads/article/image/3/thumb_images__1_.jpg
+    deleted: public/uploads/tmp/1475500929-10466-5326/Frog_on_river_4000x3000_26-09-2010_11-01am_2mb.jpg
+    deleted: public/uploads/tmp/1475500929-10466-5326/thumb_Frog_on_river_4000x3000_26-09-2010_11-01am_2mb.jpg
