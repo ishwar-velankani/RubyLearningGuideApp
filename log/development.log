@@ -14194,3 +14194,598 @@ Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf91384
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-06 21:36:56 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-10 11:57:55 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 397ms (Views: 390.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2016-10-10 11:57:58 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 99ms (Views: 33.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/regular_exp/regular" for 127.0.0.1 at 2016-10-10 11:58:00 +0530
+Processing by RegularExpController#regular as HTML
+  Rendered regular_exp/regular.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/regular_exp/index" for 127.0.0.1 at 2016-10-10 11:58:03 +0530
+Processing by RegularExpController#index as HTML
+  Rendered regular_exp/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 11:59:33 +0530
+
+
+Started GET "/students" for 127.0.0.1 at 2016-10-10 11:59:34 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT `students`.* FROM `students`[0m
+  Rendered students/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 25.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:00:48 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:01:02 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateQuestions (20161010063838)
+  [1m[35m (104.3ms)[0m  CREATE TABLE `questions` (`id` int(11) auto_increment PRIMARY KEY, `question` text, `option1` varchar(255), `option2` varchar(255), `option3` varchar(255), `option4` varchar(255), `correct_option` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20161010063838')
+  [1m[36m (30.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blog_development'
+  AND fk.table_name = 'articles'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `articles`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blog_development'
+  AND fk.table_name = 'comments'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `comments`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blog_development'
+  AND fk.table_name = 'questions'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `questions`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blog_development'
+  AND fk.table_name = 'quizzes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `quizzes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blog_development'
+  AND fk.table_name = 'students'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `students`
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT `questions`.* FROM `questions`
+  Rendered questions/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 414ms (Views: 405.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/questions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:19:29 +0530
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2016-10-10 12:19:32 +0530
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (61.3ms)
+  Rendered questions/new.html.erb within layouts/application (64.4ms)
+Completed 200 OK in 95ms (Views: 86.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (3.2ms)
+  Rendered questions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/questions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:25 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:26 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:26 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 12:20:26 +0530
+
+
+Started POST "/questions" for 127.0.0.1 at 2016-10-10 12:20:33 +0530
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UidY1cWHU+qjEyuwIWyWHfF+S5HLEHbtlzjboIvEyfDIH8nRExbtA1drNgXcMhWkXn8a6HuDsSAvaoyd1WNAyQ==", "question"=>{"question"=>"gdfgd", "option1"=>"fd", "correct_option"=>"2", "option2"=>"fd", "option3"=>"fd", "option4"=>"df"}, "commit"=>"Create Question"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`question`, `option1`, `option2`, `option3`, `option4`, `correct_option`, `created_at`, `updated_at`) VALUES ('gdfgd', 'fd', 'fd', 'fd', 'df', 2, '2016-10-10 06:50:33', '2016-10-10 06:50:33')
+  [1m[36m (45.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/questions/1
+Completed 302 Found in 51ms (ActiveRecord: 46.2ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2016-10-10 12:20:33 +0530
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT  `questions`.* FROM `questions` WHERE `questions`.`id` = 1 LIMIT 1
+  Rendered questions/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-10-10 12:20:36 +0530
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT `questions`.* FROM `questions`[0m
+  Rendered questions/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2016-10-10 12:20:46 +0530
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  `questions`.* FROM `questions` WHERE `questions`.`id` = 1 LIMIT 1
+  Rendered questions/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-10-10 12:20:48 +0530
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT `questions`.* FROM `questions`[0m
+  Rendered questions/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/questions/1" for 127.0.0.1 at 2016-10-10 12:20:52 +0530
+Processing by QuestionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MVtUkxfAZLQWvTQs6jUoGfSQ6lid/rGTVajcr0uDfSWrY8WXwVHaXeLFKZkXa6ugW5G7IS1tdl7t+ouSFST0HA==", "id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  `questions`.* FROM `questions` WHERE `questions`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `questions` WHERE `questions`.`id` = 1
+  [1m[36m (54.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/questions
+Completed 302 Found in 58ms (ActiveRecord: 55.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-10-10 12:20:53 +0530
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.3ms)[0m  SELECT `questions`.* FROM `questions`
+  Rendered questions/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/questions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 12:21:49 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/custom.self-980309dd6d81b2d52be236c8dfc77b64fd69af67ff237f9f4d7373e1750b922b.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/students.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/scaffolds.self-6d75c8f3582aec449bbdc0cb18413fe3e8f6fa20503df2e26f3b08bc047231e0.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/regular_exp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/articles.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/comments.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/questions.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/regular_exp.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/students.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-10 12:23:11 +0530
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-10-10 12:23:13 +0530
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT `questions`.* FROM `questions`[0m
+  Rendered questions/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2016-10-10 12:23:17 +0530
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (4.3ms)
+  Rendered questions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)

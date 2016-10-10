@@ -1,12 +1,15 @@
 <% provide(:title,"Home") %>
 
   <body>
-    <h1>My Blog</h1>
+    <h1>Ruby Learning Guide app</h1>
     <p>
-      This is the home page for blog application.
-      <%= link_to 'My Blog', controller: 'articles' %>
-      <%= link_to "Regular Expression" , '/regular_exp/regular' %>
-      <%= link_to "Regular Expression" , '/regular_exp/index' %>
+      This is the home page for application.
+      <ul>
+      <li><%= link_to 'My Blog', controller: 'articles' %></li>
+      <li><%= link_to "Regular Expression" , '/regular_exp/regular' %></li>
+      <li><%= link_to "Student Registration" ,controller: 'students' %></li>
+      <li><%= link_to "Question setting for Quiz", controller: 'questions' %></li>
+      </ul>
 
     </p>
   </body>
